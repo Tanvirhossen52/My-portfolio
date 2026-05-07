@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@400;500;600&display=swap');
+
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-Poppins-sans: "Poppins", sans-serif;
+  --font-Lora:  "Lora", serif;;
+  --color-primary: #137373;
+  --color-primary-dark: #030712;
+  --color-background: #dff1f1;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-Poppins-sans);
+
+  }
+}
+
+ .mySwiper .swiper-pagination-bullet-active{
+  @apply bg-primary
+ }
+
+.mySwiper .swiper-button-prev,.mySwiper .swiper-button-next{
+  @apply w-6 h-6 md:w-10 md:h-10 p-1.5 md:p-2 rounded-full bg-primary text-white
+
+}
+
+
+
+
+
+
