@@ -5,7 +5,7 @@ import Contact from "../layout/Contact";
 import Myprofile from "../Component/Myprofile";
 import MyWork from "../Component/MyWork";
 import WhatIDo from "../Component/WhatIDo";
-import MyTack from "../Component/MyTack";
+
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -44,7 +44,7 @@ const Home = () => {
       
       <section className=" md:h-screen" id="Landing"><Landing /></section>
       <section className=" md:h-screen" id="Myprofile"><Myprofile/></section>
-      {/* <section className="h-screen" id="MyTack"> <MyTack/></section> */}
+     
       <section className=" md:h-screen" id="MyWork"><MyWork/></section>
       <section className="" id="WhatIDo"><WhatIDo/></section>
       <section className="md:h-screen" id="Contact"><Contact /></section>
